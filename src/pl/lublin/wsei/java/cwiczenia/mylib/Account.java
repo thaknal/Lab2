@@ -12,7 +12,7 @@ public class Account {
         do {
             System.out.print("\nWprowadź tekst: ");
             tekst = scanner.nextLine();
-            System.out.print(StringFun.decamelize(tekst));
+            System.out.print(StringFun.isPalindrome(tekst));
 
         }while (true);
     }
